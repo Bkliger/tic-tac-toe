@@ -3,6 +3,23 @@
 }
 
 .box {
-  border: 1px solid black;
+  background-color: rgb(100,100,153);
+  color: red;
+  border: 7px solid green;
   height: 150px;
+  padding-top: 30px;
+  font-family: fantasy;
+  font-size: 90px;
+}
+
+body {
+  color: green;               /* This is green with the "green" keyword */
+  font-size: 50px;
+
+}
+
+.invisible {
+  visibility:hidden;
+  font-size: 1px
+}
 }
