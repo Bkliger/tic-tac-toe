@@ -34,25 +34,45 @@
           <!-- you can put rows inside of columns! -->
           <!-- Bootstrap subdivides these 'nested' rows into 12 columns, too! -->
           <div class="row">
-            <div class="col-xs-4 box text-center"></div>
-            <div class="col-xs-4 box text-center"></div>
-            <div class="col-xs-4 box text-center"></div>
+            <div id="r1c1" class="col-xs-4 box text-center"></div>
+            <div id="r1c2" class="col-xs-4 box text-center"></div>
+            <div id="r1c3" class="col-xs-4 box text-center"></div>
           </div>
           <div class="row">
-            <div class="col-xs-4 box text-center"></div>
-            <div class="col-xs-4 box text-center"></div>
-            <div class="col-xs-4 box text-center"></div>
+            <div id="r2c1" class="col-xs-4 box text-center"></div>
+            <div id="r2c2" class="col-xs-4 box text-center"></div>
+            <div id="r2c3" class="col-xs-4 box text-center"></div>
           </div>
-          <div class="row">
-            <div class="col-xs-4 box text-center"></div>
-            <div class="col-xs-4 box text-center"></div>
-            <div class="col-xs-4 box text-center"></div>
+          <div id="r1c1" class="row">
+            <div id="r3c1" class="col-xs-4 box text-center"></div>
+            <div id="r3c2" class="col-xs-4 box text-center"></div>
+            <div id="r3c3" class="col-xs-4 box text-center"></div>
           </div>
         </div>
       </div>
     </div>
-<!-- initialize x's or o's -->
+
+    <!-- initialize x's or o's -->
     <p id="writeValue" class = "invisible">X</p>
-    <button type="button" name="reset-button" style="padding: 10px 50px"  class="btn btn-success btn-lg center-block">reset</button>
+    <button type="button" name="reset-button" style="padding: 10px 50px" class="btn btn-success btn-lg center-block">reset</button>
+
+<!-- storage for counters for winners  -->
+    <p id="row1X" class = "invisible">0</p>
+    <p id="row1O" class = "invisible">0</p>
+    <p id="row2X" class = "invisible">0</p>
+    <p id="row2O" class = "invisible">0</p>
+    <p id="row3X" class = "invisible">0</p>
+    <p id="row3O" class = "invisible">0</p>
+    <p id="col1X" class = "invisible">0</p>
+    <p id="col1O" class = "invisible">0</p>
+    <p id="col2X" class = "invisible">0</p>
+    <p id="col2O" class = "invisible">0</p>
+    <p id="col3X" class = "invisible">0</p>
+    <p id="col3O" class = "invisible">0</p>
+    <p id="diagBackX" class = "invisible">0</p>
+    <p id="diagBackO" class = "invisible">0</p>
+    <p id="diagForwardX" class = "invisible">0</p>
+    <p id="diagForwardO" class = "invisible">0</p>
+
   </body>
 </html>
